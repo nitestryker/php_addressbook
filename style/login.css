@@ -1,0 +1,175 @@
+#login .element_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000075;
+}
+#login .error_strings
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#8b0000;
+    border-style:solid;
+    border-width:0px;
+    border-color:#000000;
+}
+#login .sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+    border-style:solid;
+    border-width:1px;
+    border-color:#660000;
+}
+#login .sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+}
+#login .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#660000;
+    border-width:0px;
+    text-align:center;
+}
+#login .sfm_textbox
+{
+    padding:2px;
+}
+#login .sfm_textarea
+{
+    padding:2px;
+}
+#login .sfm_form_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000075;
+}
+#login .sfm_image_in_form
+{
+    border:0;
+}
+#login .sfm_captcha
+{
+    border:0;
+}
+#login .sfm_datepicker_icon
+{
+    border:0;
+}
+
+#login #heading_container
+{
+    position:absolute;
+    left:78px;
+    top:15px;
+    width:160px;
+    height:20px;
+    z-index:5;
+}
+#login #heading
+{
+    position:absolute;
+    left:50px;
+    top:-5px;
+    width:59px;
+    height:24px;
+    text-align:center;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    color:#000066;
+}
+#login #TextBlock_container
+{
+    position:absolute;
+    left:40px;
+    top:56px;
+    width:65px;
+    height:20px;
+    z-index:1;
+}
+#login #TextBlock
+{
+    position:absolute;
+    left:-3px;
+    top:0px;
+    width:68px;
+    height:19px;
+    text-align:right;
+}
+#login #username_container
+{
+    position:absolute;
+    left:115px;
+    top:55px;
+    z-index:2;
+}
+#login #username
+{
+    float:left;
+    width:129px;
+    height:16px;
+    z-index:2;
+}
+#login #password_container
+{
+    position:absolute;
+    left:116px;
+    top:88px;
+    z-index:4;
+}
+#login #password
+{
+    float:left;
+    width:129px;
+    height:16px;
+    z-index:4;
+}
+#login #TextBlock1_container
+{
+    position:absolute;
+    left:38px;
+    top:92px;
+    width:66px;
+    height:20px;
+    z-index:3;
+}
+#login #TextBlock1
+{
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:65px;
+    height:19px;
+    text-align:right;
+}
+#login #Submit_container
+{
+    position:absolute;
+    left:123px;
+    top:127px;
+    width:80px;
+    height:25px;
+    z-index:6;
+}
+#login #login_Submit_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}

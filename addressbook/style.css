@@ -1,0 +1,144 @@
+
+body {
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 76%;
+}
+pre {
+padding : 1em;
+background-color : #f2f2f2;
+}
+code {
+font-size : 1.2em;
+background-color : #f2f2f2;
+}
+#content {
+margin : 3em;
+}
+#content p {
+width : 45em;
+}
+#mainmenu {
+margin : 1em 0 0 0;
+}
+.panel {
+clear : both;
+display : none;
+border : 3px solid #00adef;
+padding : 1em;
+background-color : #fff;
+margin : 0;
+}
+.panel.active-tab-body {
+display : block;
+}
+#tabs {
+list-style : none;
+padding : 0;
+margin : 0;
+}
+#tabs li {
+position : relative;
+float : left;
+}
+#tabs a {
+float : left;
+padding : 5px 8px;
+margin-right : 6px;
+border : 1px solid #00adef;
+border-width : 1px 1px 0 1px;
+text-decoration : none;
+color : #000;
+}
+#tabs a:hover {
+background-color : #8dd8f8;
+color : #fff;
+}
+#tabs a.active-tab {
+background-color : #00adef;
+color : #fff;
+}
+table {
+border-collapse : collapse;
+}
+td, th {
+padding : 0.5em;
+border : 1px solid #ccc;
+}
+thead, tfoot {
+background-color : #ddd;
+}
+tr.rowodd {
+background-color : #fff;
+}
+tr.roweven {
+background-color : #f2f2f2;
+}
+.sortcol {
+cursor : pointer;
+padding-right : 20px;
+background-repeat : no-repeat;
+background-position : right center;
+}
+.sortasc {
+background-color : #ddffac;
+background-image : url(up.gif);
+}
+.sortdesc {
+background-color : #b9ddff;
+background-image : url(down.gif);
+}
+.nosort {
+cursor : default;
+}
+.urg1, .urg2, .urg3, .urg4, .urg5 {
+padding : 3px;
+text-align : center;
+border : 1px solid #333;
+width : 3em;
+}
+.ctrlbox {
+padding : 3px;
+text-align : right;
+width : 24em;
+}
+.urg6 {
+padding : 0;
+text-align : right;
+border : 0 solid #333;
+width : 15em;
+}
+ctrlbox {
+padding : 20px;
+text-align : right;
+border : 0 solid #333;
+width : 20em;
+}
+.urg1 {
+background-color : #fffacd;
+}
+.urg2 {
+background-color : #ffd700;
+}
+.urg3 {
+background-color : #ffa500;
+}
+.urg4 {
+background-color : #e13e00;
+}
+.urg5 {
+background-color : #87cefa;
+}
+.urg6 {
+background-color : yellow;
+}
+th.resize-handle-active {
+cursor : e-resize;
+}
+div.resize-handle {
+cursor : e-resize;
+width : 2px;
+border-right : 1px dashed #1e90ff;
+position : absolute;
+top : 0;
+left : 0;
+}

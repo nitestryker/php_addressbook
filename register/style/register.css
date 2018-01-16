@@ -1,0 +1,305 @@
+#register .element_label
+{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#000000;
+}
+#register .error_strings
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#8b0000;
+    border-style:solid;
+    border-width:0px;
+    border-color:#000000;
+}
+#register .sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+    border-style:solid;
+    border-width:1px;
+    border-color:#660000;
+}
+#register .sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+}
+#register .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#660000;
+    border-width:0px;
+    text-align:center;
+}
+#register .sfm_textbox
+{
+    padding:2px;
+}
+#register .sfm_textarea
+{
+    padding:2px;
+}
+#register .sfm_form_label
+{
+    font-family:Courier;
+    font-size:14px;
+    color:#000000;
+}
+#register .sfm_image_in_form
+{
+    border:0;
+}
+#register .sfm_captcha
+{
+    border:0;
+}
+#register .sfm_datepicker_icon
+{
+    border:0;
+}
+
+#register #heading_container
+{
+    position:absolute;
+    left:105px;
+    top:23px;
+    width:256px;
+    height:20px;
+    z-index:9;
+    background-color:#fcff82;
+}
+#register #heading
+{
+    position:absolute;
+    left:-2px;
+    top:-5px;
+    width:257px;
+    height:24px;
+    text-align:center;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+    background-color:#fcff82;
+}
+#register #first_name_container
+{
+    position:absolute;
+    left:173px;
+    top:78px;
+    z-index:4;
+}
+#register #first_name
+{
+    float:left;
+    width:172px;
+    height:16px;
+    z-index:4;
+}
+#register #TextBlock_container
+{
+    position:absolute;
+    left:76px;
+    top:80px;
+    width:86px;
+    height:20px;
+    z-index:1;
+}
+#register #TextBlock
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:86px;
+    height:19px;
+    text-align:right;
+}
+#register #last_name_container
+{
+    position:absolute;
+    left:173px;
+    top:110px;
+    z-index:3;
+}
+#register #last_name
+{
+    float:left;
+    width:172px;
+    height:16px;
+    z-index:3;
+}
+#register #TextBlock1_container
+{
+    position:absolute;
+    left:73px;
+    top:113px;
+    width:86px;
+    height:20px;
+    z-index:2;
+}
+#register #TextBlock1
+{
+    position:absolute;
+    left:8px;
+    top:0px;
+    width:78px;
+    height:19px;
+    text-align:right;
+}
+#register #email_address_container
+{
+    position:absolute;
+    left:173px;
+    top:141px;
+    z-index:6;
+}
+#register #email_address
+{
+    float:left;
+    width:172px;
+    height:16px;
+    z-index:6;
+}
+#register #TextBlock2_container
+{
+    position:absolute;
+    left:81px;
+    top:146px;
+    width:75px;
+    height:20px;
+    z-index:5;
+}
+#register #TextBlock2
+{
+    position:absolute;
+    left:29px;
+    top:0px;
+    width:46px;
+    height:19px;
+    text-align:right;
+}
+#register #username_container
+{
+    position:absolute;
+    left:172px;
+    top:175px;
+    z-index:8;
+}
+#register #username
+{
+    float:left;
+    width:172px;
+    height:16px;
+    z-index:8;
+}
+#register #TextBlock3_container
+{
+    position:absolute;
+    left:90px;
+    top:178px;
+    width:68px;
+    height:22px;
+    z-index:7;
+}
+#register #TextBlock3
+{
+    position:absolute;
+    left:-2px;
+    top:1px;
+    width:70px;
+    height:19px;
+    text-align:right;
+}
+#register #password_container
+{
+    position:absolute;
+    left:172px;
+    top:210px;
+    z-index:12;
+}
+#register #password
+{
+    float:left;
+    width:172px;
+    height:16px;
+    z-index:12;
+}
+#register #label4_container
+{
+    position:absolute;
+    left:73px;
+    top:213px;
+    width:83px;
+    height:20px;
+    z-index:11;
+}
+#register #label4
+{
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:70px;
+    height:19px;
+    text-align:right;
+}
+#register #cfm_password_container
+{
+    position:absolute;
+    left:172px;
+    top:247px;
+    z-index:14;
+}
+#register #cfm_password
+{
+    float:left;
+    width:170px;
+    height:16px;
+    z-index:14;
+}
+#register #label5_container
+{
+    position:absolute;
+    left:39px;
+    top:250px;
+    width:128px;
+    height:20px;
+    z-index:13;
+}
+#register #label5
+{
+    position:absolute;
+    left:-6px;
+    top:0px;
+    width:134px;
+    height:19px;
+    text-align:right;
+}
+#register #Submit_container
+{
+    position:absolute;
+    left:206px;
+    top:285px;
+    width:80px;
+    height:25px;
+    z-index:10;
+}
+#register #register_Submit_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
